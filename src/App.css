@@ -164,7 +164,6 @@
 .earth-img-box:hover .animate {
   top: 65px;
   visibility: visible;
-  cursor: pointer;
 }
 
 .earth-img-box img:hover,
@@ -235,6 +234,9 @@
   .earth-img-box-content {
     position: absolute;
     padding: 10px 20px;
+  }
+  .animate{
+   display: none;
   }
 }
 
