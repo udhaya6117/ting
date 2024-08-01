@@ -14,7 +14,7 @@
 
 .logo {
   width: 80px;
- 
+  padding: 10px 0px ;
 }
 
 .navigations {
@@ -105,9 +105,7 @@
   margin-bottom: 30px;
 }
 
-.livingupto-earth .heading-title {
-  width: 100% !important;
-}
+
 
 .livingupto-earth {
   padding: 20px 0px;
@@ -205,6 +203,7 @@
     padding: 0px 20px;
     font-size: 30px;
     text-align: center !important;
+    width: 90%;
   }
   .heading-title::before {
     width: 90px;
@@ -221,5 +220,13 @@
   }
   .mobile-version {
     display: block;
+  }
+  .earth-img-box-content h2 {
+    font-size: 20px;
+    color: #2a2e2c;
+  }
+  .earth-img-box-content {
+    position: absolute;
+    padding: 10px 20px;
   }
 }
