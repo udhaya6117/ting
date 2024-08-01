@@ -27,6 +27,10 @@
   font-size: 12px;
 }
 
+.navigations text:hover{
+  cursor: pointer;
+}
+
 .iconsplite {
   display: flex;
   /* flex-grow: 1; */
@@ -99,6 +103,7 @@
 }
 .img-client img:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .imglisted {
@@ -159,11 +164,13 @@
 .earth-img-box:hover .animate {
   top: 65px;
   visibility: visible;
+  cursor: pointer;
 }
 
 .earth-img-box img:hover,
 .earth-img-box .x-img:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .mobile-version {
@@ -229,4 +236,15 @@
     position: absolute;
     padding: 10px 20px;
   }
+}
+
+@media (min-width:768px)and(max-width:1024px) {
+  .heading-title {
+    color: #fffffd;
+    font-family: PlayfairDisplay-SemiBold;
+    font-size: 42px;
+    /* padding-left: 20px; */
+    position: relative;
+    width: 65%;
+}
 }
