@@ -14,11 +14,11 @@
 
 .logo {
   width: 80px;
-  padding: 10px 0px;
+ 
 }
 
 .navigations {
-  flex-grow: 1;
+  flex-grow: 4;
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -29,6 +29,7 @@
 
 .iconsplite {
   display: flex;
+  /* flex-grow: 1; */
   gap: 50px;
   align-items: center;
   justify-content: center;

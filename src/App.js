@@ -23,6 +23,7 @@ import { useState, useEffect } from "react";
 import earthimg1 from "./img/earth-img/image 7.png";
 import earthimg2 from "./img/earth-img/image 8.png";
 import earthimg3 from "./img/earth-img/shutterstock_530128414 copy 8.png";
+import { Diversity1 } from "@mui/icons-material";
 
 export const imagedhop = [
   {
@@ -73,9 +74,9 @@ function App() {
         sx={{ backgroundColor: headerBackground }}
       >
         <Toolbar>
-          <Typography variant="h6" component="div" className="logo">
+          <div className="logo">
             <img src={logo} alt="" />
-          </Typography>
+          </div>
           <div className="navigations">
             <text>about</text>
             <text>sustainability</text>
