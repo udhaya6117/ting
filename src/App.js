@@ -121,8 +121,8 @@ function App() {
         </Toolbar>
       </AppBar>
 
-      <div className="bannerdiv">
-        <img src={banner} alt="" />
+      <div className="bannerdiv" >
+        <img src={banner} alt="" loading="lazy" />
         <div className="banner-content">
           <h1>Some People talk about saving the world.</h1>
           <h1> Some act</h1>
@@ -182,7 +182,7 @@ function App() {
           </div>
           <div className="img-box">
             <div className="earth-img-box">
-              <img src={earthimg2} alt="" />
+              <img src={earthimg2} alt=""loading="lazy" />
               <div className="earth-img-box-content">
                 <h2>custom craft</h2>
               </div>
@@ -191,7 +191,7 @@ function App() {
               </p>
             </div>
             <div className="earth-img-box">
-              <img src={earthimg1} alt="" className="x-img" />
+              <img src={earthimg1} alt="" className="x-img" loading="lazy" />
               <div className="earth-img-box-content">
                 <h2>atelier</h2>
               </div>
@@ -202,7 +202,7 @@ function App() {
             </div>
           </div>
           <div className="earth-img-box" style={{ marginTop: "20px" }}>
-            <img src={earthimg3} alt="" />
+            <img src={earthimg3} alt="" loading="lazy" />
             <div className="earth-img-box-content">
               <h2>Corporate gifting </h2>
             </div>
